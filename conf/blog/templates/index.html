@@ -1,0 +1,490 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+
+<style>
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 20px;
+		text-align: center;
+	      }
+	      
+	      .conference-title {
+		color: #001A57;
+		font-size: 48px;
+	      }
+	      
+	      .conference-subtitle {
+		color: #fff;
+		font-size: 28px;
+	      }
+	      
+	      /* Responsive Design */
+	      @media (max-width: 768px) {
+		.conference-title {
+		    font-size: 36px; /* Adjust the font size for tablets */
+		}
+	      
+		.conference-subtitle {
+		    font-size: 24px; /* Adjust the font size for tablets */
+		}
+	      }
+	      
+	      @media (max-width: 480px) {
+		.conference-title {
+		    font-size: 28px; /* Adjust the font size for mobile devices */
+		}
+	      
+		.conference-subtitle {
+		    font-size: 20px; /* Adjust the font size for mobile devices */
+		}
+	      
+		.container {
+		    padding: 10px; /* Reduce padding on smaller screens */
+		}
+	      }
+	      
+</style>
+
+
+			<!-- 
+			=============================================
+				Theme Main Banner
+			============================================== 
+			-->
+			<div id="theme-main-banner" class="banner-one">
+				<div data-src="{% static 'img\pexels-emily-ranquist-493228-1205651.jpg' %}">
+					<div class="camera_caption">
+						<div class="container">
+							<p class="wow fadeInUp animated" style="color: white;">
+							    <span style="font-weight: bold;">Welcome to ICSTEET 2025</span>
+							</p>
+							<br>
+							<h4 class="wow fadeInUp animated" data-wow-delay="0.2s">
+							    <span class="conference-title">Join us at the International Conference on Social Sciences,</span>
+							    <br>
+							    <span class="conference-subtitle">
+							        Teaching Education, Engineering and Technology (ICSTEET), <br>
+							        a premier forum for researchers, practitioners and professionals <br>
+							        from around the world to present and discuss the latest innovations,<br>
+							        trends and challenges in these dynamic fields.
+							    </span>
+							</h4>
+							<br><br>
+							<a href="contact.html" class="theme-button-one wow fadeInUp animated" data-wow-delay="0.39s">CONTACT US</a>
+						</div> <!-- /.container -->
+						      
+					</div> <!-- /.camera_caption -->
+				</div>
+				<div data-src="{% static 'img\pexels-hillaryfox-1595385.jpg' %}">
+					<div class="camera_caption">
+						<div class="container">
+							<p class="wow fadeInUp animated" style="color: white;">
+							    <span style="font-weight: bold;">Welcome to ICSTEET 2025</span>
+							</p>
+							<br>
+							<h4 class="wow fadeInUp animated" data-wow-delay="0.2s">
+							    <span class="conference-title">Join us at the International Conference on Social Sciences,</span>
+							    <br>
+							    <span class="conference-subtitle">
+							        Teaching Education, Engineering and Technology (ICSTEET), <br>
+							        a premier forum for researchers, practitioners and professionals <br>
+							        from around the world to present and discuss the latest innovations,<br>
+							        trends and challenges in these dynamic fields.
+							    </span>
+							</h4>
+							<br><br>
+							<a href="contact.html" class="theme-button-one wow fadeInUp animated" data-wow-delay="0.39s">CONTACT US</a>
+						</div>
+					</div> 
+				</div>
+				<div data-src="{% static 'img\pexels-pixabay-301920.jpg' %}">
+					<div class="camera_caption">
+						<div class="container">
+							<p class="wow fadeInUp animated" style="color: white;">
+							    <span style="font-weight: bold;">Welcome to ICSTEET 2025</span>
+							</p>
+							<br>
+							<h4 class="wow fadeInUp animated" data-wow-delay="0.2s">
+							    <span class="conference-title">Join us at the International Conference on Social Sciences,</span>
+							    <br>
+							    <span class="conference-subtitle">
+							        Teaching Education, Engineering and Technology (ICSTEET), <br>
+							        a premier forum for researchers, practitioners and professionals <br>
+							        from around the world to present and discuss the latest innovations,<br>
+							        trends and challenges in these dynamic fields.
+							    </span>
+							</h4>
+							<br><br>
+							<a href="contact.html" class="theme-button-one wow fadeInUp animated" data-wow-delay="0.39s">CONTACT US</a>
+						</div>
+					</div>
+				</div> 
+			</div> <!-- /#theme-main-banner -->
+
+			
+			<!-- 
+			=============================================
+				Top Feature
+			============================================== 
+			-->
+			<div class="top-feature section-spacing">
+				<div class="top-features-slide">
+					<div class="item">
+						<div class="main-content" style="background:#fafafa;">
+							<img src="{% static 'images/icon/1.png' %}" alt="">
+							<h4><a href="#">Conference Date</a></h4>
+							<p>22-23 January, 2025</p>
+						</div> <!-- /.main-content -->
+					</div> <!-- /.item -->
+					<div class="item">
+						<div class="main-content" style="background:#f6f6f6;">
+							<img src="{% static 'images/icon/2.png' %}" alt="">
+							<h4><a href="#">Conference Venue</a></h4>
+							<p>City, Country: Manila, Philippines</p>
+						</div> <!-- /.main-content -->
+					</div> <!-- /.item -->
+					<div class="item">
+						<div class="main-content" style="background:#efefef;">
+							<img src="{% static 'images/icon/3.png' %}" alt="">
+							<h4><a href="#">Call:(+91)766904 09022</a></h4>
+							<p>( International Conferences )</p>
+						</div> <!-- /.main-content -->
+					</div> <!-- /.item -->
+					<div class="item">
+						<div class="main-content" style="background:#e9e9e9;">
+							<img src="{% static 'images/icon/4.png' %}" alt="">
+							<h4><a href="#">Organized By</a></h4>
+							<p>Confworld Educational  Association</p>
+						</div> <!-- /.main-content -->
+					</div> <!-- /.item -->
+				</div> <!-- /.top-features-slide -->
+			</div> <!-- /.top-feature -->
+
+
+			<!-- 
+			=============================================
+				About Company
+			============================================== 
+			-->
+			<div class="about-compnay section-spacing">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-12"><img src="{% static 'img\pexels-serhaterdogan-10977491.jpg' %}" alt=""></div>
+						<div class="col-lg-6 col-12">
+							<div class="text">
+								<div class="theme-title-one">
+									<h2>About ICSTEET</h2>
+									<p>ICSTEET aims to bring together leading academic scientists, researchers and scholars to
+										exchange and share their experiences and research results. The conference offers an
+										interdisciplinary platform for the presentation of new advances and research in the fields of
+										Education, Engineering &amp; Technology, Social Sciences and Humanities.</p>
+									<p>This conference serves as a platform for sharing cutting-edge research and innovations across
+										multiple disciplines, fostering interdisciplinary collaborations and networking with peers
+										from around the globe.</p>
+								</div> <!-- /.theme-title-one -->
+								<ul class="mission-goal clearfix">
+									<li>
+										<i class="icon flaticon-star"></i>
+										<h4>Vision</h4>
+									</li>
+									<li>
+										<i class="icon flaticon-medal"></i>
+										<h4>Missions</h4>
+									</li>
+									<li>
+										<i class="icon flaticon-target"></i>
+										<h4>Goals</h4>
+									</li>
+								</ul> <!-- /.mission-goal -->
+							</div> <!-- /.text -->
+						</div> 
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</div> <!-- /.about-compnay -->
+
+
+			<!-- 
+			=============================================
+				Feature Banner
+			============================================== 
+			-->
+			<div class="feature-banner section-spacing">
+				<div class="opacity">
+					<div class="container">
+						<h2>Conference Theme</h2>
+						<h4 style="color: #e9e9e9;">The theme of the conference is &quot;Bridging the Gap: Innovations and Challenges in Social
+							Sciences, Teaching &amp; Education, Engineering and Technology&quot;. We aim to explore the
+							latest advancements, challenges and future directions in these diverse fields, emphasizing the
+							role of interdisciplinary approaches in addressing global challenges.</h4><br>
+						<a href="#" class="theme-button-one">GET A QUOTES</a>
+					</div> <!-- /.container -->
+				</div> <!-- /.opacity -->
+			</div> <!-- /.feature-banner -->
+
+<!-- 
+			=============================================
+				Our Solution
+			============================================== 
+			-->
+			<div class="our-solution section-spacing">
+				<div class="container">
+					<div class="theme-title-one">
+						<h2>Key Highlights</h2>
+					</div> <!-- /.theme-title-one -->
+					<div class="wrapper">
+						<div class="row">
+							<div class="col-lg-4 col-sm-6 col-12">
+								<div class="single-solution-block">
+									<img src="{% static 'images/icon/5.png' %}" alt="" class="icon">
+									<h5><a href="service-details.html">Interdisciplinary Sessions</a></h5>
+									<p>Engage in thought-provoking sessions that bridge various
+										disciplines and explore their interconnectedness. </p>
+								</div> <!-- /.single-solution-block -->
+							</div> 
+							<div class="col-lg-4 col-sm-6 col-12">
+								<div class="single-solution-block">
+									<img src="{% static 'images/icon/6.png' %}" alt="" class="icon">
+									<h5><a href="service-details.html">Expert Keynote Speakers</a></h5>
+									<p>Learn from renowned experts who will share their insights and
+										experiences. </p>
+								</div> <!-- /.single-solution-block -->
+							</div> 
+							<div class="col-lg-4 col-sm-6 col-12">
+								<div class="single-solution-block">
+									<img src="{% static 'images/icon/7.png' %}" alt="" class="icon">
+									<h5><a href="service-details.html">Paper Presentations</a></h5>
+									<p>Present your research findings and contribute to discussions on a wide
+										range of topics.</p>
+								</div> <!-- /.single-solution-block -->
+							</div> 
+							<div class="col-lg-4 col-sm-6 col-12">
+								<div class="single-solution-block">
+									<img src="{% static 'images/icon/8.png' %}" alt="" class="icon">
+									<h5><a href="service-details.html">Networking Opportunities</a></h5>
+									<p>Connect with peers, researchers and industry professionals to
+										build collaborations and partnerships. </p>
+								</div> <!-- /.single-solution-block -->
+							</div> 
+							<div class="col-lg-4 col-sm-6 col-12">
+								<div class="single-solution-block">
+									<img src="{% static 'images/icon/9.png' %}" alt="" class="icon">
+									<h5><a href="service-details.html">Publication Opportunities</a></h5>
+									<p>Selected papers will have the opportunity to be published in a
+										Scopus indexed journals.</p>
+								</div> <!-- /.single-solution-block -->
+							</div> 
+							<div class="col-lg-4 col-sm-6 col-12">
+								<div class="single-solution-block">
+									<img src="{% static 'images/icon/10.png' %}" alt="" class="icon">
+									<h5><a href="service-details.html">Business Services</a></h5>
+									<p>The explore strange new worlds to seek fout new life and new civilizations to boldly where no man has before gone. </p>
+								</div> <!-- /.single-solution-block -->
+							</div> 
+						</div> <!-- /.row -->
+					</div> <!-- /.wrapper -->
+				</div> <!-- /.container -->
+			</div> <!-- /.our-solution -->
+			
+
+			<!-- 
+			=============================================
+				Service Style One
+			============================================== 
+			-->
+			<!-- <div class="service-style-one section-spacing">
+				<div class="container">
+					<div class="theme-title-one">
+						<h2>Our SERVICES</h2>
+						<p>A tale of a fateful trip that started from this tropic port aboard this tiny ship today stillers</p>
+					</div> 
+					<div class="wrapper">
+						<div class="row">
+							<div class="col-xl-4 col-md-6 col-12">
+								<div class="single-service">
+									<div class="img-box"><img src="images/home/3.jpg" alt=""></div>
+									<div class="text">
+										<h5><a href="service-details.html">Business Services</a></h5>
+										<p>The tiny ship today stiller</p>
+										<a href="service-details.html" class="read-more">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+									</div> 
+								</div> 
+							</div> 
+							<div class="col-xl-4 col-md-6 col-12">
+								<div class="single-service">
+									<div class="img-box"><img src="images/home/4.jpg" alt=""></div>
+									<div class="text">
+										<h5><a href="service-details.html">Consumer Product</a></h5>
+										<p>The tiny ship today stiller</p>
+										<a href="service-details.html" class="read-more">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+									</div> 
+								</div> 
+							</div> 
+							<div class="col-xl-4 col-md-6 col-12">
+								<div class="single-service">
+									<div class="img-box"><img src="images/home/5.jpg" alt=""></div>
+									<div class="text">
+										<h5><a href="service-details.html">Financial Services</a></h5>
+										<p>The tiny ship today stiller</p>
+										<a href="service-details.html" class="read-more">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+									</div> 
+								</div>
+							</div>
+							<div class="col-xl-4 col-md-6 col-12">
+								<div class="single-service">
+									<div class="img-box"><img src="images/home/6.jpg" alt=""></div>
+									<div class="text">
+										<h5><a href="service-details.html">Travel and Aviation</a></h5>
+										<p>The tiny ship today stiller</p>
+										<a href="service-details.html" class="read-more">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+									</div> 
+								</div> 
+							</div> 
+							<div class="col-xl-4 col-md-6 col-12">
+								<div class="single-service">
+									<div class="img-box"><img src="images/home/7.jpg" alt=""></div>
+									<div class="text">
+										<h5><a href="service-details.html">Software Research</a></h5>
+										<p>The tiny ship today stiller</p>
+										<a href="service-details.html" class="read-more">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+									</div> 
+								</div> 
+							</div> 
+							<div class="col-xl-4 col-md-6 col-12">
+								<div class="single-service">
+									<div class="img-box"><img src="images/home/8.jpg" alt=""></div>
+									<div class="text">
+										<h5><a href="service-details.html">Quality Resourcing</a></h5>
+										<p>The tiny ship today stiller</p>
+										<a href="service-details.html" class="read-more">READ MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+									</div> 
+								</div> 
+							</div>
+						</div>
+					</div>
+					<div class="contact-text">
+						<h4>You can also send us an email and we’ll get in touch shortly, or Call us</h4>
+						<h5><a href="#">info@support.com</a>  (or)  <a href="#">+1 234 6780 900</a></h5>
+					</div>
+				</div> 
+			</div>  -->
+
+
+			<!--
+			=====================================================
+				Testimonial Slider
+			=====================================================
+			-->
+			<div class="testimonial-section section-spacing">
+				<div class="overlay">
+					<div class="container">
+						<div class="wrapper">
+							<div class="bg">
+								<div class="testimonial-slider">
+									<div class="item">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quasi pariatur recusandae laudantium, vel amet perspiciatis facere. Blanditiis, quisquam. Hic cupiditate fuga odit pariatur nostrum asperiores suscipit necessitatibus nisi accusantium.</p>
+										<div class="name">
+											<h6>Sabari</h6>
+											<span>Founder</span>
+										</div> <!-- /.name -->
+									</div> <!-- /.item -->
+									<div class="item">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quasi pariatur recusandae laudantium, vel amet perspiciatis facere. Blanditiis, quisquam. Hic cupiditate fuga odit pariatur nostrum asperiores suscipit necessitatibus nisi accusantium.</p>
+										<div class="name">
+											<h6>Sabari</h6>
+											<span>Founder</span>
+										</div> <!-- /.name -->
+									</div> <!-- /.item -->
+									<div class="item">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quasi pariatur recusandae laudantium, vel amet perspiciatis facere. Blanditiis, quisquam. Hic cupiditate fuga odit pariatur nostrum asperiores suscipit necessitatibus nisi accusantium.</p>
+										<div class="name">
+											<h6>Sabari</h6>
+											<span>Founder</span>
+										</div> <!-- /.name --> <!-- /.name -->
+									</div> <!-- /.item -->
+								</div> <!-- /.testimonial-slider -->
+							</div> <!-- /.bg -->
+						</div> <!-- /.wrapper -->
+					</div> <!-- /.container -->
+				</div> <!-- /.overlay -->
+			</div> <!-- /.testimonial-section -->
+
+
+		
+
+			<!--
+			=====================================================
+				Theme Counter
+			=====================================================
+			-->
+			<!-- <div class="theme-counter section-spacing">
+				<div class="container">
+					<div class="bg">
+						<h6>Company Success</h6>
+						<h2>Some fun facts about our consulting</h2>
+
+						<div class="cunter-wrapper">
+							<div class="row">
+								<div class="col-md-3 col-6">
+									<div class="single-counter-box">
+				        				<div class="number"><span class="timer" data-from="0" data-to="30" data-speed="1200" data-refresh-interval="5">0</span>+</div>
+				        				<p>Years of Excellence</p>
+				        			</div> 
+								</div>  
+								<div class="col-md-3 col-6">
+									<div class="single-counter-box">
+				        				<div class="number"><span class="timer" data-from="0" data-to="100" data-speed="1200" data-refresh-interval="5">0</span>%</div>
+				        				<p>Client Satisfaction</p>
+				        			</div> 
+								</div>  
+								<div class="col-md-3 col-6">
+									<div class="single-counter-box">
+				        				<div class="number"><span class="timer" data-from="0" data-to="53" data-speed="1200" data-refresh-interval="5">0</span>k</div>
+				        				<p>Cases Completed</p>
+				        			</div> 
+								</div>  
+								<div class="col-md-3 col-6">
+									<div class="single-counter-box">
+				        				<div class="number"><span class="timer" data-from="0" data-to="24" data-speed="1200" data-refresh-interval="5">0</span></div>
+				        				<p>Consultants</p>
+				        			</div> 
+								</div>
+							</div>
+						</div> 
+						<a href="#" class="theme-button-one">VIEW CASE STUDIES</a>
+					</div> 
+				</div>
+			</div> 
+
+
+		 -->
+
+
+
+			<!--
+			=====================================================
+				Partner Slider
+			=====================================================
+			-->
+			<div class="partner-section bg-color">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-4 col-12">
+							<h6>OUR <br>PARTNERS</h6>
+						</div>
+						<div class="col-md-9 col-sm-8 col-12">
+							<div class="partner-slider">
+								<div class="item"><img src="{% static 'images/logo/p-1.png' %}" alt=""></div>
+								<div class="item"><img src="{% static 'images/logo/p-2.png' %}" alt=""></div>
+								<div class="item"><img src="{% static 'images/logo/p-3.png' %}" alt=""></div>
+								<div class="item"><img src="{% static 'images/logo/p-4.png' %}" alt=""></div>
+								<div class="item"><img src="{% static 'images/logo/p-5.png' %}" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> <!-- /.partner-section -->
+
+{% endblock content %}
